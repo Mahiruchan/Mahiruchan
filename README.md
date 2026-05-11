@@ -44,7 +44,7 @@
 ## 📊 Stats
 
 <p align="center">
-  <img height="200" src="https://raw.githubusercontent.com/Mahiruchan/Mahiruchan/output/metrics.languages.svg"/>
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Mahiruchan&theme=solarized&exclude=html,css"/>
 </p>
 
 <p align="center">
