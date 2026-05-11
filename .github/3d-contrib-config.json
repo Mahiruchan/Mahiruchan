@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/schema.json",
+  "type": "season",
+  "growingAnimation": true,
+  "fileName": "profile-3d.svg",
+  "backgroundColor": "#FDFBF7",
+  "foregroundColor": "#6B4F3A",
+  "strongColor": "#E87B6E",
+  "weakColor": "#F4C2C2"
+}

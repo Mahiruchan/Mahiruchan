@@ -54,29 +54,42 @@
 ![Playwright](https://img.shields.io/badge/Playwright-6B4F3A?style=flat-square&logo=playwright&logoColor=F4C2C2)
 ![Tailscale](https://img.shields.io/badge/Tailscale-7FA8C9?style=flat-square&logo=tailscale&logoColor=white)
 
-## 📊 Stats
+## 📊 At a Glance
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Mahiruchan&hide_border=true&background=FDFBF7&stroke=E87B6E&ring=D49A4D&fire=E87B6E&currStreakLabel=6B4F3A&sideLabels=6B4F3A&currStreakNum=6B4F3A&sideNums=6B4F3A&dates=8B6F47" height="160"/>
-</p>
-
-## 🏆 Trophy
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Mahiruchan&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=10" />
-</p>
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"
-            srcset="https://raw.githubusercontent.com/Mahiruchan/Mahiruchan/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)"
-            srcset="https://raw.githubusercontent.com/Mahiruchan/Mahiruchan/output/github-contribution-grid-snake.svg"/>
-    <img alt="snake" src="https://raw.githubusercontent.com/Mahiruchan/Mahiruchan/output/github-contribution-grid-snake.svg"/>
-  </picture>
-</p>
+<table>
+  <tr>
+    <td rowspan="2" width="58%" align="center">
+      <a href="https://github.com/Mahiruchan">
+        <img src="https://raw.githubusercontent.com/Mahiruchan/Mahiruchan/output/profile-3d.svg" alt="3d contributions"/>
+      </a>
+    </td>
+    <td width="42%" align="center">
+      <img src="https://streak-stats.demolab.com?user=Mahiruchan&hide_border=true&background=FDFBF7&stroke=E87B6E&ring=D49A4D&fire=E87B6E&currStreakLabel=6B4F3A&sideLabels=6B4F3A&currStreakNum=6B4F3A&sideNums=6B4F3A&dates=8B6F47" alt="streak"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <!-- ANILIST placeholder — provide AniList username to enable -->
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mahiruchan&theme=solarized&utcOffset=8" alt="productive time"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-profile-trophy.vercel.app/?username=Mahiruchan&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=10" alt="trophies"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)"
+                srcset="https://raw.githubusercontent.com/Mahiruchan/Mahiruchan/output/github-contribution-grid-snake-dark.svg"/>
+        <source media="(prefers-color-scheme: light)"
+                srcset="https://raw.githubusercontent.com/Mahiruchan/Mahiruchan/output/github-contribution-grid-snake.svg"/>
+        <img alt="snake" src="https://raw.githubusercontent.com/Mahiruchan/Mahiruchan/output/github-contribution-grid-snake.svg"/>
+      </picture>
+    </td>
+  </tr>
+</table>
 
 <!-- 底部波浪结尾 -->
 <p align="center">
