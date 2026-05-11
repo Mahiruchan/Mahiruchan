@@ -49,7 +49,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mahiruchan&hide_border=true&background=FDFBF7&stroke=E87B6E&ring=D49A4D&fire=E87B6E&currStreakLabel=6B4F3A&sideLabels=6B4F3A&currStreakNum=6B4F3A&sideNums=6B4F3A&dates=8B6F47" height="160"/>
+  <img src="https://streak-stats.demolab.com?user=Mahiruchan&hide_border=true&background=FDFBF7&stroke=E87B6E&ring=D49A4D&fire=E87B6E&currStreakLabel=6B4F3A&sideLabels=6B4F3A&currStreakNum=6B4F3A&sideNums=6B4F3A&dates=8B6F47" height="160"/>
 </p>
 
 ## 🏆 Trophy
@@ -61,7 +61,13 @@
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Mahiruchan/Mahiruchan/output/github-contribution-grid-snake.svg" alt="snake"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+            srcset="https://raw.githubusercontent.com/Mahiruchan/Mahiruchan/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)"
+            srcset="https://raw.githubusercontent.com/Mahiruchan/Mahiruchan/output/github-contribution-grid-snake.svg"/>
+    <img alt="snake" src="https://raw.githubusercontent.com/Mahiruchan/Mahiruchan/output/github-contribution-grid-snake.svg"/>
+  </picture>
 </p>
 
 <!-- 底部波浪结尾 -->
