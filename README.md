@@ -21,38 +21,9 @@
 
 ## 🛠 Tech Stack
 
-### Current Focus
-
-![Python](https://img.shields.io/badge/Python-6B4F3A?style=for-the-badge&logo=python&logoColor=D49A4D)
-![TypeScript](https://img.shields.io/badge/TypeScript-7FA8C9?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-6B4F3A?style=for-the-badge&logo=react&logoColor=F4C2C2)
-![Vite](https://img.shields.io/badge/Vite-E87B6E?style=for-the-badge&logo=vite&logoColor=white)
-![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-6B4F3A?style=for-the-badge&logo=shadcnui&logoColor=F4C2C2)
-![Tailwind](https://img.shields.io/badge/Tailwind-7FA8C9?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-6B4F3A?style=for-the-badge&logo=fastapi&logoColor=D49A4D)
-![SQLModel](https://img.shields.io/badge/SQLModel-E87B6E?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-7FA8C9?style=for-the-badge&logo=postgresql&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-E87B6E?style=for-the-badge&logo=anthropic&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-6B4F3A?style=for-the-badge&logo=anthropic&logoColor=F4C2C2)
-![LiteLLM](https://img.shields.io/badge/LiteLLM-D49A4D?style=for-the-badge&logo=openai&logoColor=white)
-
-### Also Familiar With
-
-![Go](https://img.shields.io/badge/Go-7FA8C9?style=flat-square&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-6B4F3A?style=flat-square&logo=rust&logoColor=F4C2C2)
-![Next.js](https://img.shields.io/badge/Next.js-6B4F3A?style=flat-square&logo=nextdotjs&logoColor=F4C2C2)
-![Vue](https://img.shields.io/badge/Vue-7FA8C9?style=flat-square&logo=vuedotjs&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-6B4F3A?style=flat-square&logo=electron&logoColor=F4C2C2)
-![Tauri](https://img.shields.io/badge/Tauri-D49A4D?style=flat-square&logo=tauri&logoColor=white)
-![Express](https://img.shields.io/badge/Express-6B4F3A?style=flat-square&logo=express&logoColor=F4C2C2)
-![Redis](https://img.shields.io/badge/Redis-E87B6E?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-7FA8C9?style=flat-square&logo=docker&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-E87B6E?style=flat-square&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-D49A4D?style=flat-square&logo=huggingface&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-6B4F3A?style=flat-square&logo=opencv&logoColor=F4C2C2)
-![WebRTC](https://img.shields.io/badge/WebRTC-7FA8C9?style=flat-square&logo=webrtc&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-6B4F3A?style=flat-square&logo=playwright&logoColor=F4C2C2)
-![Tailscale](https://img.shields.io/badge/Tailscale-7FA8C9?style=flat-square&logo=tailscale&logoColor=white)
+<p align="center">
+  <img src="./assets/tech-stack-terminal.svg" alt="tech stack" width="100%"/>
+</p>
 
 ## 📊 At a Glance
 

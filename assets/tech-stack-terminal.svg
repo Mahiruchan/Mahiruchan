@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="Tech stack terminal">
+  <defs>
+    <linearGradient id="termbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1F1410"/>
+      <stop offset="100%" stop-color="#2B2218"/>
+    </linearGradient>
+    <style>
+      .term {
+        font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+        font-size: 17px;
+        fill: #FDFBF7;
+      }
+      .small { font-size: 13px; }
+      .ok    { fill: #D49A4D; }
+      .cmd   { fill: #E87B6E; }
+      .key   { fill: #F4C2C2; }
+      .dim   { fill: #6B4F3A; }
+      .dot   { fill: #6B4F3A; }
+
+      .line { opacity: 0; animation: appear 0.35s ease-out forwards; }
+      .l0  { animation-delay: 0.2s; }
+      .l1  { animation-delay: 0.6s; }
+      .l2  { animation-delay: 1.0s; }
+      .l3  { animation-delay: 1.3s; }
+      .l4  { animation-delay: 1.6s; }
+      .l5  { animation-delay: 1.9s; }
+      .l6  { animation-delay: 2.2s; }
+      .l7  { animation-delay: 2.5s; }
+      .l8  { animation-delay: 2.8s; }
+      .l9  { animation-delay: 3.3s; }
+      .l10 { animation-delay: 3.6s; }
+      .l11 { animation-delay: 4.0s; }
+      @keyframes appear {
+        from { opacity: 0; transform: translateX(-8px); }
+        to   { opacity: 1; transform: translateX(0); }
+      }
+
+      .cursor {
+        fill: #E87B6E;
+        animation: blink 1s steps(2) infinite;
+        animation-delay: 4.2s;
+      }
+      @keyframes blink {
+        0%, 50%   { opacity: 1; }
+        51%, 100% { opacity: 0; }
+      }
+
+      .scan { fill: #FDFBF7; opacity: 0.02; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="440" fill="url(#termbg)"/>
+
+  <!-- CRT scanlines -->
+  <g class="scan">
+    <rect y="0"   width="1200" height="1"/><rect y="4"   width="1200" height="1"/>
+    <rect y="8"   width="1200" height="1"/><rect y="12"  width="1200" height="1"/>
+    <rect y="16"  width="1200" height="1"/><rect y="20"  width="1200" height="1"/>
+    <rect y="24"  width="1200" height="1"/><rect y="28"  width="1200" height="1"/>
+    <rect y="32"  width="1200" height="1"/><rect y="36"  width="1200" height="1"/>
+    <rect y="40"  width="1200" height="1"/><rect y="44"  width="1200" height="1"/>
+    <rect y="48"  width="1200" height="1"/>
+  </g>
+
+  <!-- Window chrome -->
+  <g transform="translate(30,28)">
+    <circle cx="0"  cy="0" r="6" fill="#E87B6E"/>
+    <circle cx="18" cy="0" r="6" fill="#D49A4D"/>
+    <circle cx="36" cy="0" r="6" fill="#F4C2C2"/>
+  </g>
+  <text x="80" y="33" class="term small dim">~/profile/mahiru/stack.txt — bash</text>
+
+  <!-- Command -->
+  <g class="term">
+    <text x="40" y="85" class="line l0">
+      <tspan class="dim">$</tspan>
+      <tspan class="cmd"> stack</tspan>
+      <tspan> --list</tspan>
+    </text>
+
+    <!-- 6 stack categories -->
+    <text x="40" y="130" class="line l1">
+      <tspan class="ok">[ OK ]</tspan>
+      <tspan class="key">  languages   </tspan>
+      <tspan class="dim">·</tspan> Python
+      <tspan class="dim">·</tspan> TypeScript
+      <tspan class="dim">·</tspan> Go
+      <tspan class="dim">·</tspan> Rust
+    </text>
+    <text x="40" y="160" class="line l2">
+      <tspan class="ok">[ OK ]</tspan>
+      <tspan class="key">  frontend    </tspan>
+      <tspan class="dim">·</tspan> React
+      <tspan class="dim">·</tspan> Vite
+      <tspan class="dim">·</tspan> shadcn/ui
+      <tspan class="dim">·</tspan> Tailwind
+      <tspan class="dim">·</tspan> Electron
+    </text>
+    <text x="40" y="190" class="line l3">
+      <tspan class="ok">[ OK ]</tspan>
+      <tspan class="key">  backend     </tspan>
+      <tspan class="dim">·</tspan> FastAPI
+      <tspan class="dim">·</tspan> SQLModel
+      <tspan class="dim">·</tspan> PostgreSQL
+      <tspan class="dim">·</tspan> Redis
+      <tspan class="dim">·</tspan> Docker
+    </text>
+    <text x="40" y="220" class="line l4">
+      <tspan class="ok">[ OK ]</tspan>
+      <tspan class="key">  ai / agent  </tspan>
+      <tspan class="dim">·</tspan> Anthropic
+      <tspan class="dim">·</tspan> OpenAI
+      <tspan class="dim">·</tspan> MCP
+      <tspan class="dim">·</tspan> LiteLLM
+      <tspan class="dim">·</tspan> LangChain
+    </text>
+    <text x="40" y="250" class="line l5">
+      <tspan class="ok">[ OK ]</tspan>
+      <tspan class="key">  ml / cv     </tspan>
+      <tspan class="dim">·</tspan> PyTorch
+      <tspan class="dim">·</tspan> HuggingFace
+      <tspan class="dim">·</tspan> OpenCV
+      <tspan class="dim">·</tspan> Pillow
+    </text>
+    <text x="40" y="280" class="line l6">
+      <tspan class="ok">[ OK ]</tspan>
+      <tspan class="key">  realtime    </tspan>
+      <tspan class="dim">·</tspan> WebRTC
+      <tspan class="dim">·</tspan> Playwright
+      <tspan class="dim">·</tspan> Tailscale
+    </text>
+    <text x="40" y="310" class="line l7">
+      <tspan class="ok">[ OK ]</tspan>
+      <tspan class="key">  specialty   </tspan>
+      <tspan class="dim">·</tspan> pyo3
+      <tspan class="dim">·</tspan> Streamlit
+      <tspan class="dim">·</tspan> moviepy
+      <tspan class="dim">·</tspan> MCP-servers
+    </text>
+
+    <!-- Summary -->
+    <text x="40" y="355" class="line l9">
+      <tspan class="dim">&gt;</tspan> 30+ technologies across 7 domains
+    </text>
+    <text x="40" y="385" class="line l10">
+      <tspan class="dim">&gt;</tspan> status<tspan class="dim">:</tspan>
+      <tspan class="cmd"> ready</tspan>
+    </text>
+
+    <!-- Final prompt -->
+    <text x="40" y="420" class="line l11">
+      <tspan class="dim">$</tspan>
+      <tspan class="cursor">_</tspan>
+    </text>
+  </g>
+</svg>
