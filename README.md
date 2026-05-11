@@ -17,8 +17,8 @@
 
 ## ✨ About
 
-> *"The future is already here — it's just not evenly distributed."*
-> &nbsp;&nbsp;&nbsp;&nbsp;— **William Gibson**
+> *"Mankind was born on Earth. It was never meant to die here."*
+> &nbsp;&nbsp;&nbsp;&nbsp;— **Cooper, *Interstellar*  (2014)**
 
 ## 🛠 Tech Stack
 
