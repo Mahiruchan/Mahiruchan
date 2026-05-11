@@ -23,6 +23,7 @@ jobs:
 
       - name: Patch missing # in CSS color vars
         run: |
+          sudo chown -R $USER:$USER dist
           sed -i -E 's/--(cs|ce|c[0-4]):([0-9A-Fa-f]{6})/--\1:#\2/g' dist/*.svg
           echo "=== light preview ==="
           head -c 400 dist/github-contribution-grid-snake.svg
