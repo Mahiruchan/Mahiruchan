@@ -79,7 +79,7 @@
       <tspan> --list</tspan>
     </text>
 
-    <!-- 6 stack categories -->
+    <!-- 7 stack categories -->
     <text x="40" y="130" class="line l1">
       <tspan class="ok">[ OK ]</tspan>
       <tspan class="key">  languages   </tspan>
@@ -95,9 +95,14 @@
       <tspan class="dim">·</tspan> Vite
       <tspan class="dim">·</tspan> shadcn/ui
       <tspan class="dim">·</tspan> Tailwind
-      <tspan class="dim">·</tspan> Electron
     </text>
     <text x="40" y="190" class="line l3">
+      <tspan class="ok">[ OK ]</tspan>
+      <tspan class="key">  desktop     </tspan>
+      <tspan class="dim">·</tspan> Electron
+      <tspan class="dim">·</tspan> Tauri
+    </text>
+    <text x="40" y="220" class="line l4">
       <tspan class="ok">[ OK ]</tspan>
       <tspan class="key">  backend     </tspan>
       <tspan class="dim">·</tspan> FastAPI
@@ -106,7 +111,7 @@
       <tspan class="dim">·</tspan> Redis
       <tspan class="dim">·</tspan> Docker
     </text>
-    <text x="40" y="220" class="line l4">
+    <text x="40" y="250" class="line l5">
       <tspan class="ok">[ OK ]</tspan>
       <tspan class="key">  ai / agent  </tspan>
       <tspan class="dim">·</tspan> Anthropic
@@ -115,33 +120,24 @@
       <tspan class="dim">·</tspan> LiteLLM
       <tspan class="dim">·</tspan> LangChain
     </text>
-    <text x="40" y="250" class="line l5">
+    <text x="40" y="280" class="line l6">
       <tspan class="ok">[ OK ]</tspan>
-      <tspan class="key">  ml / cv     </tspan>
+      <tspan class="key">  ml / vision </tspan>
       <tspan class="dim">·</tspan> PyTorch
       <tspan class="dim">·</tspan> HuggingFace
       <tspan class="dim">·</tspan> OpenCV
-      <tspan class="dim">·</tspan> Pillow
-    </text>
-    <text x="40" y="280" class="line l6">
-      <tspan class="ok">[ OK ]</tspan>
-      <tspan class="key">  realtime    </tspan>
-      <tspan class="dim">·</tspan> WebRTC
-      <tspan class="dim">·</tspan> Playwright
-      <tspan class="dim">·</tspan> Tailscale
     </text>
     <text x="40" y="310" class="line l7">
       <tspan class="ok">[ OK ]</tspan>
-      <tspan class="key">  specialty   </tspan>
-      <tspan class="dim">·</tspan> pyo3
-      <tspan class="dim">·</tspan> Streamlit
-      <tspan class="dim">·</tspan> moviepy
-      <tspan class="dim">·</tspan> MCP-servers
+      <tspan class="key">  rtc / net   </tspan>
+      <tspan class="dim">·</tspan> WebRTC
+      <tspan class="dim">·</tspan> Pion
+      <tspan class="dim">·</tspan> Tailscale
     </text>
 
     <!-- Summary -->
     <text x="40" y="355" class="line l9">
-      <tspan class="dim">&gt;</tspan> 30+ technologies across 7 domains
+      <tspan class="dim">&gt;</tspan> 26 technologies across 7 domains
     </text>
     <text x="40" y="385" class="line l10">
       <tspan class="dim">&gt;</tspan> status<tspan class="dim">:</tspan>
