@@ -17,7 +17,8 @@
 
 ## ✨ About
 
-Full-stack engineer working across the AI application stack — from agent orchestration down to the interfaces people actually touch.
+> *"The future is already here — it's just not evenly distributed."*
+> &nbsp;&nbsp;&nbsp;&nbsp;— **William Gibson**
 
 ## 🛠 Tech Stack
 
