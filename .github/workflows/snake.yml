@@ -21,6 +21,15 @@ jobs:
             dist/github-contribution-grid-snake.svg?color_snake=%23E87B6E&color_dots=%23FBE4D6,%23F4C2C2,%23E87B6E,%23D49A4D,%236B4F3A
             dist/github-contribution-grid-snake-dark.svg?color_snake=%23D49A4D&color_dots=%232B2218,%236B4F3A,%23D49A4D,%23E87B6E,%23F4C2C2&palette=github-dark
 
+      - name: Patch missing # in CSS color vars
+        run: |
+          sed -i -E 's/--(cs|ce|c[0-4]):([0-9A-Fa-f]{6})/--\1:#\2/g' dist/*.svg
+          echo "=== light preview ==="
+          head -c 400 dist/github-contribution-grid-snake.svg
+          echo ""
+          echo "=== dark preview ==="
+          head -c 400 dist/github-contribution-grid-snake-dark.svg
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
