@@ -18,7 +18,11 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Mahiruchan
-          filename: dist/metrics.languages.svg
+          filename: metrics.languages.svg
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: output
+          committer_message: "chore: update language metrics"
+          output_action: commit
           base: ""
           plugin_languages: yes
           plugin_languages_ignored: html, css, scss, less, dockerfile, makefile, shell, batchfile, jupyter notebook
@@ -30,16 +34,3 @@ jobs:
           plugin_languages_sections: most-used
           config_timezone: Asia/Shanghai
           config_padding: 0, 8%
-
-      - name: Fix permissions
-        run: sudo chown -R $USER:$USER dist
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-          keep_files: true
-          allow_empty_commit: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
