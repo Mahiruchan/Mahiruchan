@@ -6,7 +6,7 @@
 <!-- 打字机标题 -->
 <p align="center">
   <a href="https://github.com/Mahiruchan">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=E87B6E&center=true&vCenter=true&width=520&lines=just+building+stuff;%E6%8A%8A%E5%A4%8D%E6%9D%82%E7%9A%84%E4%B8%9C%E8%A5%BF%E6%8B%86%E6%88%90%E5%B0%8F%E5%9D%97;%E9%80%A0%E8%BD%AE%E5%AD%90%E4%B8%8D%E5%8F%AA%E6%98%AF%E5%8A%9F%E5%88%A9%E4%B8%BB%E4%B9%89;always+shipping%2C+rarely+finished" alt="typing"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=E87B6E&center=true&vCenter=true&width=520&lines=exploring+the+AI+frontier;building+tools+for+what's+next;from+terminal%2C+looking+up;always+shipping%2C+never+finished" alt="typing"/>
   </a>
 </p>
 
