@@ -17,7 +17,7 @@
 
 ## ✨ About
 
-折腾型开发者，always shipping, rarely finished.
+Full-stack engineer working across the AI application stack — from agent orchestration down to the interfaces people actually touch.
 
 ## 🛠 Tech Stack
 
