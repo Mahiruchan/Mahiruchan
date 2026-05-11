@@ -6,7 +6,7 @@
 <!-- 打字机标题 -->
 <p align="center">
   <a href="https://github.com/Mahiruchan">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=E87B6E&center=true&vCenter=true&width=520&lines=Agent+Platform+Builder;OpenClaw+%26+Claude+Skills+SOP+Framework;Python+%C2%B7+TypeScript+%C2%B7+Vue+%C2%B7+FastAPI;%E6%99%BA%E8%83%BD%E7%A7%91%E6%8A%80+%C2%B7+%E5%9C%A8%E5%81%9A+AI+%E5%B7%A5%E7%A8%8B%E5%8C%96" alt="typing"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=E87B6E&center=true&vCenter=true&width=520&lines=just+building+stuff;%E6%8A%8A%E5%A4%8D%E6%9D%82%E7%9A%84%E4%B8%9C%E8%A5%BF%E6%8B%86%E6%88%90%E5%B0%8F%E5%9D%97;%E9%80%A0%E8%BD%AE%E5%AD%90%E4%B8%8D%E5%8F%AA%E6%98%AF%E5%8A%9F%E5%88%A9%E4%B8%BB%E4%B9%89;always+shipping%2C+rarely+finished" alt="typing"/>
   </a>
 </p>
 
@@ -17,9 +17,14 @@
 
 ## ✨ About
 
-智能科学与技术方向。正在做自研 agent 平台 **OpenClaw** 和 **Claude Skills SOP 沉淀框架**——把工程经验组织成"技术栈 + 场景"的可复用技能库。
+折腾型开发者，热衷于把零散的工程经验沉淀成顺手的小工具。
 
-日常 Python / TypeScript / Vue / FastAPI，多模型路由用 LiteLLM，Windows + WSL 工作流。
+- 🌱 着迷于 AI 工程化、Agent 编排、人机协作的边界
+- 🧪 信条：跑得通的端到端 > 永远在重构的完美架构
+- 🛠 工作流：Windows + WSL 双修，AI 辅助开发重度用户
+- ☕ 离开屏幕时：动画、轻小说，以及给硬件写些不务正业的小玩具
+
+> "Always shipping, rarely finished."
 
 ## 🛠 Tech Stack
 
@@ -31,15 +36,15 @@
 
 **Frontend**
 
-![Vue](https://img.shields.io/badge/Vue-7FA8C9?style=for-the-badge&logo=vue.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-6B4F3A?style=for-the-badge&logo=react&logoColor=F4C2C2)
 ![Vite](https://img.shields.io/badge/Vite-E87B6E?style=for-the-badge&logo=vite&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-6B4F3A?style=for-the-badge&logo=shadcnui&logoColor=F4C2C2)
 ![Tailwind](https://img.shields.io/badge/Tailwind-7FA8C9?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-**Backend & AI**
+**Backend & Infra**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-6B4F3A?style=for-the-badge&logo=fastapi&logoColor=D49A4D)
-![LiteLLM](https://img.shields.io/badge/LiteLLM-E87B6E?style=for-the-badge&logo=openai&logoColor=white)
+![SQLModel](https://img.shields.io/badge/SQLModel-E87B6E?style=for-the-badge&logo=sqlalchemy&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-7FA8C9?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-7FA8C9?style=for-the-badge&logo=docker&logoColor=white)
 
