@@ -44,10 +44,6 @@
 ## 📊 Stats
 
 <p align="center">
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Mahiruchan&theme=solarized&exclude=html,css"/>
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=Mahiruchan&hide_border=true&background=FDFBF7&stroke=E87B6E&ring=D49A4D&fire=E87B6E&currStreakLabel=6B4F3A&sideLabels=6B4F3A&currStreakNum=6B4F3A&sideNums=6B4F3A&dates=8B6F47" height="160"/>
 </p>
 
