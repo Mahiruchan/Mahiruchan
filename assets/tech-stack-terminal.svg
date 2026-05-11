@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="Tech stack terminal">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" width="1200" height="410" role="img" aria-label="Tech stack terminal">
   <defs>
     <linearGradient id="termbg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#1F1410"/>
@@ -50,7 +50,7 @@
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="440" fill="url(#termbg)"/>
+  <rect width="1200" height="410" fill="url(#termbg)"/>
 
   <!-- CRT scanlines -->
   <g class="scan">
@@ -117,17 +117,9 @@
       <tspan class="dim">·</tspan> Anthropic
       <tspan class="dim">·</tspan> OpenAI
       <tspan class="dim">·</tspan> MCP
-      <tspan class="dim">·</tspan> LiteLLM
       <tspan class="dim">·</tspan> LangChain
     </text>
     <text x="40" y="280" class="line l6">
-      <tspan class="ok">[ OK ]</tspan>
-      <tspan class="key">  ml / vision </tspan>
-      <tspan class="dim">·</tspan> PyTorch
-      <tspan class="dim">·</tspan> HuggingFace
-      <tspan class="dim">·</tspan> OpenCV
-    </text>
-    <text x="40" y="310" class="line l7">
       <tspan class="ok">[ OK ]</tspan>
       <tspan class="key">  rtc / net   </tspan>
       <tspan class="dim">·</tspan> WebRTC
@@ -136,16 +128,16 @@
     </text>
 
     <!-- Summary -->
-    <text x="40" y="355" class="line l9">
-      <tspan class="dim">&gt;</tspan> 26 technologies across 7 domains
+    <text x="40" y="325" class="line l9">
+      <tspan class="dim">&gt;</tspan> 21 technologies across 6 domains
     </text>
-    <text x="40" y="385" class="line l10">
+    <text x="40" y="355" class="line l10">
       <tspan class="dim">&gt;</tspan> status<tspan class="dim">:</tspan>
       <tspan class="cmd"> ready</tspan>
     </text>
 
     <!-- Final prompt -->
-    <text x="40" y="420" class="line l11">
+    <text x="40" y="390" class="line l11">
       <tspan class="dim">$</tspan>
       <tspan class="cursor">_</tspan>
     </text>
