@@ -44,8 +44,8 @@
 ## 📊 Stats
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.hackclub.dev/api?username=Mahiruchan&show_icons=true&hide_border=true&bg_color=FDFBF7&title_color=E87B6E&text_color=6B4F3A&icon_color=D49A4D&include_all_commits=true"/>
-  <img height="160" src="https://github-readme-stats.hackclub.dev/api/top-langs/?username=Mahiruchan&layout=compact&hide_border=true&bg_color=FDFBF7&title_color=E87B6E&text_color=6B4F3A&langs_count=8"/>
+  <img height="160" src="https://github-readme-stats-rust.vercel.app/api?username=Mahiruchan&show_icons=true&hide_border=true&bg_color=FDFBF7&title_color=E87B6E&text_color=6B4F3A&icon_color=D49A4D&include_all_commits=true"/>
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mahiruchan&theme=solarized"/>
 </p>
 
 <p align="center">
