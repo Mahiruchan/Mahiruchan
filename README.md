@@ -17,14 +17,7 @@
 
 ## ✨ About
 
-折腾型开发者，热衷于把零散的工程经验沉淀成顺手的小工具。
-
-- 🌱 着迷于 AI 工程化、Agent 编排、人机协作的边界
-- 🧪 信条：跑得通的端到端 > 永远在重构的完美架构
-- 🛠 工作流：Windows + WSL 双修，AI 辅助开发重度用户
-- ☕ 离开屏幕时：动画、轻小说，以及给硬件写些不务正业的小玩具
-
-> "Always shipping, rarely finished."
+折腾型开发者，always shipping, rarely finished.
 
 ## 🛠 Tech Stack
 
