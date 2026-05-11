@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Terminal Boot banner">
+  <defs>
+    <linearGradient id="termbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1F1410"/>
+      <stop offset="100%" stop-color="#2B2218"/>
+    </linearGradient>
+    <style>
+      .term-text {
+        font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+        font-size: 17px;
+        fill: #FDFBF7;
+      }
+      .ok { fill: #D49A4D; }
+      .prompt { fill: #E87B6E; }
+      .dim { fill: #6B4F3A; }
+
+      .line { opacity: 0; animation: appear 0.35s ease-out forwards; }
+      .l1 { animation-delay: 0.3s; }
+      .l2 { animation-delay: 0.7s; }
+      .l3 { animation-delay: 1.0s; }
+      .l4 { animation-delay: 1.4s; }
+      .l5 { animation-delay: 1.8s; }
+      .l6 { animation-delay: 2.4s; }
+      .l7 { animation-delay: 3.0s; }
+      @keyframes appear {
+        from { opacity: 0; transform: translateX(-8px); }
+        to { opacity: 1; transform: translateX(0); }
+      }
+
+      .cursor {
+        fill: #E87B6E;
+        animation: blink 1s steps(2) infinite;
+        animation-delay: 3.2s;
+      }
+      @keyframes blink {
+        0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0; }
+      }
+
+      .scanline {
+        fill: #FDFBF7;
+        opacity: 0.02;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#termbg)"/>
+
+  <!-- Subtle scanlines for CRT vibe -->
+  <g class="scanline">
+    <rect y="0"   width="1200" height="1"/>
+    <rect y="4"   width="1200" height="1"/>
+    <rect y="8"   width="1200" height="1"/>
+    <rect y="12"  width="1200" height="1"/>
+    <rect y="16"  width="1200" height="1"/>
+    <rect y="20"  width="1200" height="1"/>
+    <rect y="24"  width="1200" height="1"/>
+    <rect y="28"  width="1200" height="1"/>
+    <rect y="32"  width="1200" height="1"/>
+    <rect y="36"  width="1200" height="1"/>
+    <rect y="40"  width="1200" height="1"/>
+    <rect y="44"  width="1200" height="1"/>
+    <rect y="48"  width="1200" height="1"/>
+    <rect y="52"  width="1200" height="1"/>
+    <rect y="56"  width="1200" height="1"/>
+    <rect y="60"  width="1200" height="1"/>
+    <rect y="64"  width="1200" height="1"/>
+    <rect y="68"  width="1200" height="1"/>
+    <rect y="72"  width="1200" height="1"/>
+    <rect y="76"  width="1200" height="1"/>
+  </g>
+
+  <!-- Window chrome (3 dots) -->
+  <g transform="translate(30,28)">
+    <circle cx="0"  cy="0" r="6" fill="#E87B6E"/>
+    <circle cx="18" cy="0" r="6" fill="#D49A4D"/>
+    <circle cx="36" cy="0" r="6" fill="#F4C2C2"/>
+  </g>
+  <text x="80" y="33" class="term-text dim" font-size="13">~/profile/mahiru — bash</text>
+
+  <!-- Terminal lines -->
+  <g class="term-text">
+    <text x="40" y="80" class="line l1">
+      <tspan class="dim">$</tspan>
+      <tspan class="prompt"> boot</tspan> mahiru.os
+    </text>
+    <text x="40" y="108" class="line l2">
+      <tspan class="ok">[ OK ]</tspan> loading sci-fi modules<tspan class="dim">............ done</tspan>
+    </text>
+    <text x="40" y="132" class="line l3">
+      <tspan class="ok">[ OK ]</tspan> mounting /dev/curiosity<tspan class="dim">............. done</tspan>
+    </text>
+    <text x="40" y="156" class="line l4">
+      <tspan class="ok">[ OK ]</tspan> initializing agent runtime<tspan class="dim">.......... done</tspan>
+    </text>
+    <text x="40" y="180" class="line l5">
+      <tspan class="ok">[ OK ]</tspan> listening for what's next<tspan class="dim">............ done</tspan>
+    </text>
+    <text x="40" y="220" class="line l6">
+      <tspan class="dim">&gt;</tspan> hi, I'm <tspan class="prompt" style="font-weight:bold">Mahiru</tspan>
+    </text>
+    <text x="40" y="248" class="line l7">
+      <tspan class="dim">&gt;</tspan> always shipping, never finished<tspan class="cursor">_</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Minimal Editorial banner">
+  <defs>
+    <style>
+      .h1 {
+        font-family: 'Playfair Display', 'Times New Roman', Georgia, serif;
+        font-weight: 900;
+        font-size: 140px;
+        letter-spacing: -4px;
+        fill: #6B4F3A;
+      }
+      .h1-stroke {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-weight: 900;
+        font-size: 140px;
+        letter-spacing: -4px;
+        fill: none;
+        stroke: #E87B6E;
+        stroke-width: 1.2;
+      }
+      .meta {
+        font-family: 'Fira Code', Consolas, monospace;
+        font-size: 11px;
+        fill: #6B4F3A;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .accent { fill: #E87B6E; }
+
+      .reveal { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: rev 2s ease-out 0.3s forwards; }
+      @keyframes rev { to { stroke-dashoffset: 0; } }
+
+      .slide-in { opacity: 0; transform: translateX(-12px); animation: slin 0.8s ease-out forwards; }
+      .slide-in.s1 { animation-delay: 1.6s; }
+      .slide-in.s2 { animation-delay: 1.9s; }
+      .slide-in.s3 { animation-delay: 2.2s; }
+      .slide-in.s4 { animation-delay: 2.5s; }
+      @keyframes slin {
+        to { opacity: 1; transform: translateX(0); }
+      }
+
+      .pulse-dot {
+        fill: #E87B6E;
+        animation: pulse 1.8s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.3; r: 4; }
+        50%      { opacity: 1;   r: 5.5; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" fill="#FDFBF7"/>
+
+  <!-- Top thin rule -->
+  <line x1="80" y1="50" x2="1120" y2="50" stroke="#6B4F3A" stroke-width="1" opacity="0.2"/>
+
+  <!-- Top-left meta -->
+  <g class="meta">
+    <text x="80" y="38">Vol. 04 · Issue 06</text>
+  </g>
+  <!-- Top-right meta -->
+  <g class="meta">
+    <text x="1120" y="38" text-anchor="end">EST. 2022 — github.com/Mahiruchan</text>
+  </g>
+
+  <!-- Large outlined display number "26" or year -->
+  <text x="1180" y="180" text-anchor="end" class="h1-stroke reveal" opacity="0.45">26</text>
+
+  <!-- Main title -->
+  <text x="80" y="180" class="h1">Mahiru<tspan class="accent">.</tspan></text>
+
+  <!-- Tagline left aligned, fade-in lines -->
+  <g class="meta">
+    <text x="82" y="215" class="slide-in s1">— Engineer · agent platforms · sci-fi reader</text>
+    <text x="82" y="235" class="slide-in s2">— exploring the AI frontier</text>
+    <text x="82" y="255" class="slide-in s3">— building tools for what's next</text>
+  </g>
+
+  <!-- Bottom rule with pulse dot -->
+  <line x1="80" y1="285" x2="1120" y2="285" stroke="#6B4F3A" stroke-width="1" opacity="0.2"/>
+  <circle cx="80" cy="285" r="4" class="pulse-dot"/>
+  <text x="100" y="289" class="meta slide-in s4">LIVE · always shipping, never finished</text>
+</svg>
